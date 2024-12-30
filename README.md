@@ -1,7 +1,6 @@
 # IoT Object Detection and Data Logging System
 
 This project implements an IoT-based object detection system using an **ESP8266 microcontroller**, an **IR sensor**, and a **buzzer**. The system monitors objects using the IR sensor, triggers a buzzer when an object is detected, and logs the detection data to **ThingSpeak**, a cloud-based platform for data visualization.
-![WhatsApp Image 2024-12-30 at 15 01 18_62ee3fda](https://github.com/user-attachments/assets/9f637229-cbed-4153-b313-14ae0527a294)
 
 ## Project Workflow
 1. **IR Sensor**: Detects object presence (HIGH = object detected).
@@ -35,6 +34,8 @@ This project implements an IoT-based object detection system using an **ESP8266 
 1. **IR Sensor**: Connect the signal pin to GPIO2 (D4).
 2. **Buzzer**: Connect the positive terminal to GPIO3 (D3) and the negative terminal to GND.
 3. Connect the ESP8266 to power (e.g., via USB).
+   ![WhatsApp Image 2024-12-30 at 15 01 18_62ee3fda](https://github.com/user-attachments/assets/62b0583d-08e7-40eb-9d2b-efd955c0c372)
+
 
 ## Usage
 1. Power on the ESP8266.
