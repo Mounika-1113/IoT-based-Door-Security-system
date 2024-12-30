@@ -1,6 +1,8 @@
 # IoT Object Detection and Data Logging System
 
 This project implements an IoT-based object detection system using an **ESP8266 microcontroller**, an **IR sensor**, and a **buzzer**. The system monitors objects using the IR sensor, triggers a buzzer when an object is detected, and logs the detection data to **ThingSpeak**, a cloud-based platform for data visualization.
+![WhatsApp Image 2024-12-30 at 15 01 18_62ee3fda](https://github.com/user-attachments/assets/9f637229-cbed-4153-b313-14ae0527a294)
+
 ## Project Workflow
 1. **IR Sensor**: Detects object presence (HIGH = object detected).
 2. **Buzzer**: Provides immediate sound alerts.
@@ -33,24 +35,7 @@ This project implements an IoT-based object detection system using an **ESP8266 
 1. **IR Sensor**: Connect the signal pin to GPIO2 (D4).
 2. **Buzzer**: Connect the positive terminal to GPIO3 (D3) and the negative terminal to GND.
 3. Connect the ESP8266 to power (e.g., via USB).
-## Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   ```
-2. **Configure Arduino IDE**:
-   - Install the **ESP8266 board package** in the Arduino IDE.
-   - Install the required libraries via the Library Manager.
-3. **Modify the Code**:
-   - Update the following placeholders in the code:
-     - `SSID`: Your Wi-Fi network name.
-     - `PASSWORD`: Your Wi-Fi password.
-     - `SERVER`: ThingSpeak server URL (e.g., `http://api.thingspeak.com`).
-     - `API KEY`: Your ThingSpeak channel API key.
-4. **Upload the Code**:
-   - Connect the ESP8266 to your computer.
-   - Select the appropriate board and port in Arduino IDE.
-   - Upload the code to the ESP8266.
+
 ## Usage
 1. Power on the ESP8266.
 2. The device connects to the specified Wi-Fi network.
